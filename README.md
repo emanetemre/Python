@@ -1,4 +1,10 @@
 # Python Notlarım
+
+Python programlarını iki şekilde yazabilirsiniz. Birincisi etkileşimli olarak diğeri bir dosyaya yazarak bu dosyanın Python tarafından yorumlanmasını sağlayabilirsiniz. Etkileşimli kullanmak çoğu zaman bir anlam ifade etmez. Ancak kısa programlar yazacaksanız unuttuğunuz bir fonksiyonu denemek istiyorsanız. hemen Python kabuğunda istediğinizi yapabilirsiniz. Windows kullananlar için üç kabuk vardır.
+
+* 1. Interpreter Shell
+Bunu kullanmanızı tavsiye etmem kullanımı zordur. Siyah bir kabuğa saatlerce 
+
 Sayı değişkenleri üzerinde tüm aritmetik işlemleri yapabilirsiniz, sonucuda daha sonra kullanmak üzere sayı değişkenlere atayabilirsiniz. Atama işlemi `=` ile yapılır.
 
 ```python
