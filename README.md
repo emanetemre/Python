@@ -1,5 +1,25 @@
 # Python Notlarım
+Sayı değişkenleri üzerinde tüm aritmetik işlemleri yapabilirsiniz, sonucuda daha sonra kullanmak üzere sayı değişkenlere atayabilirsiniz. Atama işlemi `=` ile yapılır.
 
+```python
+>>> a=5
+>>> b=7
+>>> c=a+b
+```
+Yazdığımız değişkenleri Python ekrana yazdırmadı. Çünkü sonucu bir değişkene atadık. Herhangi bir atama işlemi yapılmıyorsa etkileşimli ekranda sonuç standart çıktıya yazdırılır. İmleçte iken `c` yazıp enter tuşuna basarsanız işlem sonucunu görürsünüz.
+```python
+>>> c
+12
+```
+Şimdi hemen şu işlemi yapalım.
+```python
+>>> c+d
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'd' is not defined
+>>>
+```
+Programın çıktısının 12 olmasını bekliyorduk değil mi? Python'a yeni başlayanlar bu hataya düşebilirler. Python'da bir değişken bir işlem içerisinde kullanılmadan önce mutlaka tanımlanmalıdır. Ön tanımlı değerler sıfır yada boş olamaz. 
 
 ### Üs Alma Operatörü **
 ```python
