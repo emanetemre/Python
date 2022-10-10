@@ -124,3 +124,9 @@ Bir dizgideki karakter sayının tam sayı değeri olarak değrlendirir.
 >>> len ('yaz dostum say dostum')
 21
 ```
+
+## If Deyimi
+```python
+if 5>4:
+    print("5 rakamı 4 rakamından büyüktür.")
+```
