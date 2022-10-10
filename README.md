@@ -149,5 +149,9 @@ if 5>4:
 
 # Dosyalar
 Python ile bir dosya açmak için `open()` fonksiyonu kullanılır. Kullanımı şu şekildedir. `dosyadegiskeni=open(dosyayolu, acma_modu=`
-Okuma (r)
-Yazma (w)
+* Okuma (r)
+* Yazma (w)
+* Ekleme (a)
+* Okuma ve yazma (rw)
+
+Açacağınız dosya ikili ise açma modları (b) ile birleştirmelisiniz. Eğer açma modu verilmediyse öntanımlı olarak okunabilir açılır. Yazma mdunda bir dosya açarsanız ve eğer o isimde eski bir dosya varsa herhangi bir uyarıda bulunmadan dosyanın içeriği kaybolacaktır. Olmayan bir dosyayı ekleme modunda çamaya çalışırsanız yeni bir dosya oluşturur. Dosya yolunu iki şekilde belirtebilirsiniz.
