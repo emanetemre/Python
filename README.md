@@ -2,9 +2,6 @@
 
 Python programlarını iki şekilde yazabilirsiniz. Birincisi etkileşimli olarak diğeri bir dosyaya yazarak bu dosyanın Python tarafından yorumlanmasını sağlayabilirsiniz. Etkileşimli kullanmak çoğu zaman bir anlam ifade etmez. Ancak kısa programlar yazacaksanız unuttuğunuz bir fonksiyonu denemek istiyorsanız. hemen Python kabuğunda istediğinizi yapabilirsiniz. Windows kullananlar için üç kabuk vardır.
 
-1. Interpreter Shell
-Bunu kullanmanızı tavsiye etmem kullanımı zordur. Siyah bir kabuğa saatlerce 
-
 Sayı değişkenleri üzerinde tüm aritmetik işlemleri yapabilirsiniz, sonucuda daha sonra kullanmak üzere sayı değişkenlere atayabilirsiniz. Atama işlemi `=` ile yapılır.
 
 ```python
@@ -25,7 +22,17 @@ Traceback (most recent call last):
 NameError: name 'd' is not defined
 >>>
 ```
-Programın çıktısının 12 olmasını bekliyorduk değil mi? Python'a yeni başlayanlar bu hataya düşebilirler. Python'da bir değişken bir işlem içerisinde kullanılmadan önce mutlaka tanımlanmalıdır. Ön tanımlı değerler sıfır yada boş olamaz. 
+Programın çıktısının 12 olmasını bekliyorduk değil mi? Python'a yeni başlayanlar bu hataya düşebilirler. Python'da bir değişken bir işlem içerisinde kullanılmadan önce mutlaka tanımlanmalıdır. Ön tanımlı değerler sıfır yada boş olamaz.
+
+Karmaşık sayılarda değişkenlere atanabilir.
+```python
+>>> a=5+3j
+>>> b=17-9j
+>>> a+b
+(22-6j)
+>>> a*b
+(112+6j)
+```
 
 ### Üs Alma Operatörü **
 ```python
@@ -126,14 +133,6 @@ Bir dizgideki karakter sayının tam sayı değeri olarak değrlendirir.
 ```
 
 ## If Deyimi
-
-```mermaid
-flowchart TB
-A(Başla) --> B{Karşılaştırma}
-B -- Doğru --> C(karşılaştırma doğruysa yürütülecek blok)
-C ----> D
-B -- Yanlış --> D(Son)
-```
 Eğer anlamına gelen if sonuç doğru olduğunda sonra gelen bloğun çalıştırılmasını sağlar.
 
 ```
