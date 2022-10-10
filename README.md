@@ -1,8 +1,9 @@
 # Python Notlarım
+S.A Arkadaşlar ilk anlatacağım bölümde python dilinin özelliklerini anlatmaya çalışacağım.Ama şunu belirteyim ne kadar anlatırsam anlatayım bazı ifadeler hiç bilmeyen birine yabancı gelecektir.Çeşitli örnekler vererek zengin bir anlatım hedefliyorum.Eğer daha önceden bir programlama dili bilmiyorsanız vereceğimiz örnekleri anlamaya çalışmayın.Herhangi bir dil biliyorsanız bir önceki bilgileriniz ile çelişecek vereceğimiz örnekler.Hatta size saçma gelecek.Her ne olursa olsun diğer bilgileriniz görmezden gelmeye çalışın mümkün olduğunca.Python beyninizde fırtınalar oluşturacak.Çünkü bu dil tamamen insan beyni nasıl düşünüyorsa öyle yazılmıştır.Bu dilde İnsanın düşünme tarzı temel alınmıştır.Şunu da unutmayın python ın tamamını öğrenmek imkansız ve gereksizdir.Pythonın sihirli dünyasında nasıl olmasını düşünüyorsanız öyle olacaktınişte bu seviyeye gelince kendinize olan özgüveniniz artacaktır arkadaşlar. Diğer dilleri öğrenme isteğiniz artacaktır.Buyrun hep birlikte şimdi python dilinin sihirli dünyasına gidelim. Python programlama dilinin özellikleri Python dilini diğer dillerden ayıran bir çok özellik vardır arkadaşlar.Bu dil ne kadar eski olsa bile insanlar tarafından az bilinmektedir.Biz burada bilinmeyenlere ışık tutacağız. Bu mükemmel dilin bazı özellikleri şöyledir: 
 
 Python programlarını iki şekilde yazabilirsiniz. Birincisi etkileşimli olarak diğeri bir dosyaya yazarak bu dosyanın Python tarafından yorumlanmasını sağlayabilirsiniz. Etkileşimli kullanmak çoğu zaman bir anlam ifade etmez. Ancak kısa programlar yazacaksanız unuttuğunuz bir fonksiyonu denemek istiyorsanız. hemen Python kabuğunda istediğinizi yapabilirsiniz. Windows kullananlar için üç kabuk vardır.
 
-* 1. Interpreter Shell
+1. Interpreter Shell
 Bunu kullanmanızı tavsiye etmem kullanımı zordur. Siyah bir kabuğa saatlerce 
 
 Sayı değişkenleri üzerinde tüm aritmetik işlemleri yapabilirsiniz, sonucuda daha sonra kullanmak üzere sayı değişkenlere atayabilirsiniz. Atama işlemi `=` ile yapılır.
@@ -126,6 +127,14 @@ Bir dizgideki karakter sayının tam sayı değeri olarak değrlendirir.
 ```
 
 ## If Deyimi
+
+```mermaid
+flowchart TB
+A(Başla) --> B{Karşılaştırma}
+B -- Doğru --> C(karşılaştırma doğruysa yürütülecek blok)
+C ----> D
+B -- Yanlış --> D(Son)
+```
 Eğer anlamına gelen if sonuç doğru olduğunda sonra gelen bloğun çalıştırılmasını sağlar.
 
 ```
