@@ -34,12 +34,26 @@ while True:
 * `AF_BTH` - Bluetooth
 * `AF_X25` - Reserved for X.25 Project
 
+```
 ##### Socket Type
 * `SOCK_STREAM` --> TCP
 * Stream soketler TCP protokolune uygun olarak paket gönderiminde bulunurlar yani güvenilir iki yönlü iletişim kanallarıdır.Bir paket gönderdiklerinde gidip gitmediği ile ilgili bilgi döndürene kadar kendilerini kapatmazlar paketler eksik veya farklı sırada gönderilmez.
 * `SOCK_DGRAM` --> UDP
 * Datagram soketler IP protokolüne göre çalısır ve TCP yerine UDP. kullanırlar burada iletimdaha hızlı olur fakat Stream soketlere nazaran hata payı artar paketler sırasız yada eksik gönderilebilir ve Datagram soketler bunu kontrol etmez paket gonderildigi anda kapanırlar.
 * `SOCK_RAW` --> Raw Socket
+
+socket.AF_INET   : Yapılacak bağlantıyı IPv4 üzerinden yapmayı sağlar.
+socket.AF_INET6  : Yapılacak bağlantıyı IPv6 üzerinden yapmayı sağlar.
+socket.SOCK_STREAM  : Yapılacak bağlantıda TCP protokolünün kullanılmasını sağlar.
+socket.SOCK_DGRAM  : Yapılacak bağlantıda UDP protokolünün kullanılmasını sağlar.
+
+socket.connect((h,p))  : Belirtilen IP adresine bağlanır.(Kullanıcı)
+socket.bind((h,p))  : Belirtilen IP ile portu dinlemeye alır.(Sunucu)
+socket.listen()  : Dinlemeye alınan adrese bağlanacak sayıyı kararlar.
+socket.accept()  : Bağlantı kurmak isteyen kişileri kabul eder.
+socket.send()  : Bağlantı kurulan kişiye veri yollanır.
+socket.recv()  : Bağlantıdan gelecek olan cevabı alır.
+```
 
 ### Örnek Kod
 
