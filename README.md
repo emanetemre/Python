@@ -146,3 +146,8 @@ if karşılaştırma:
 if 5>4:
     print("5 rakamı 4 rakamından büyüktür.")
 ```
+
+# Dosyalar
+Python ile bir dosya açmak için `open()` fonksiyonu kullanılır. Kullanımı şu şekildedir. `dosyadegiskeni=open(dosyayolu, acma_modu=`
+Okuma (r)
+Yazma (w)
