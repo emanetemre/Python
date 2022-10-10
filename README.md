@@ -126,6 +126,12 @@ Bir dizgideki karakter sayının tam sayı değeri olarak değrlendirir.
 ```
 
 ## If Deyimi
+Eğer anlamına gelen if sonuç doğru olduğunda sonra gelen bloğun çalıştırılmasını sağlar.
+
+if karşılaştırma:
+    karşılaştırma doğruysa
+    yürütülecek blok
+
 ```python
 if 5>4:
     print("5 rakamı 4 rakamından büyüktür.")
